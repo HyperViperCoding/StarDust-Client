@@ -7,7 +7,7 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
     {
         public AirAcceleration() : base("AirAcceleration", CategoryHandler.registry.categories[1], (char)0x07, false)
         {
-            RegisterSliderSetting("Acceleration", 0, 5, 20);
+            RegisterSliderSetting("Acceleration", -20, 5, 20);
         }
 
         public override void onTick()
