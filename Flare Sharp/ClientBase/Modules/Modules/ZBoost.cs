@@ -7,7 +7,7 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
     {
         public ZBoost() : base("XBoost", CategoryHandler.registry.categories[1], (char)0x07, false)
         {
-            RegisterSliderSetting("Boost", 0, 10, 100);
+            RegisterSliderSetting("Boost", -100, -10, 0, 10, 100);
         }
 
         public override void onEnable()
