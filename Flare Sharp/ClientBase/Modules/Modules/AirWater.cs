@@ -13,6 +13,7 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
         public override void onEnable()
         {
             base.onEnable();
+            Minecraft.clientInstance.localPlayer.isInWater = 1;
             byte[] offs = { 0x90, 0x90, 0x90, 0x90, 0x90, 0x90, 0x90 };
             MCM.writeBaseBytes(Statics.inWaterTick, offs);
             Minecraft.clientInstance.localPlayer.isInWater = 1;
