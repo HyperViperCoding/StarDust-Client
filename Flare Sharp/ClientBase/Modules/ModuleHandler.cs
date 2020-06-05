@@ -5,6 +5,7 @@ using Flare_Sharp.Memory.FlameSDK;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -18,7 +19,7 @@ namespace Flare_Sharp.ClientBase.Modules
         public ModuleHandler()
         {
             registry = this;
-            /*
+            
             Console.WriteLine("Module ticking statistics starting...");
             System.Timers.Timer timer = new System.Timers.Timer();
             timer.Elapsed += (object send, ElapsedEventArgs arg) => {
@@ -28,10 +29,28 @@ namespace Flare_Sharp.ClientBase.Modules
             };
             timer.Interval = 1000;
             timer.Start();
-            */
+            
             Console.WriteLine("Starting module register...");
             /* Register modules here */
             new Killaura();
+            new YesFall();
+            new SuperKnockBack();
+            new NegativeKnockBack();
+            new NegativeSuperKnockback();
+            new AirWater();
+            new NoCrouch();
+            new NoJump();
+            new Rubberband();
+            new StupidScaffold();
+            new StupidScaffold2();
+            new TFreaky();
+            new TPAura();
+            new Twerk1();
+            new Twerk2();
+            new Twerk3();
+            new Twerk4();
+            new XBoost();
+            new ZBoost();
             new Aimbot();
             new Hitbox();
             new Triggerbot();
@@ -84,18 +103,18 @@ namespace Flare_Sharp.ClientBase.Modules
             new TabGUI();
             new ModuleList();
             new TPFlight();
-            //new ListTest();
+            new ListTest();
             //new AntiSentinel();
             new CpuLimiter();
             new RainbowUI();
             new CoordinatesDisplay();
-            //new CubeCraftFly();
+            new CubeCraftFly();
             Console.WriteLine("Modules registered!");
             startModuleThread();
         }
 
-        //uint tps = 0;
-        //uint currentTick = 0;
+        uint tps = 0;
+        uint currentTick = 0;
         public void tickModuleThread()
         {
             foreach (Category category in CategoryHandler.registry.categories)
@@ -105,7 +124,7 @@ namespace Flare_Sharp.ClientBase.Modules
                     try
                     {
                         module.onLoop().ConfigureAwait(false);
-                        //currentTick++;
+                        currentTick++;
                     }
                     catch (Exception ex)
                     {
