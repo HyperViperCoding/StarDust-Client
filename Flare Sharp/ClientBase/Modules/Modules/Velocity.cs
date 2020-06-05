@@ -9,7 +9,7 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
     {
         public Velocity() : base("Velocity", CategoryHandler.registry.categories[1], (char)0x07, false)
         {
-            RegisterSliderSetting("Speed", 01, 05, 50);
+            RegisterSliderSetting("Speed", -50, 05, 50);
         }
 
         public override void onTick()

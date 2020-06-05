@@ -8,7 +8,7 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
     {
         public Misplace() : base("Misplace", CategoryHandler.registry.categories[0], (char)0x07, false)
         {
-            RegisterSliderSetting("Range", 0, 120, 640);
+            RegisterSliderSetting("Range", -640, 120, 640);
         }
 
         bool doubleMp = false;

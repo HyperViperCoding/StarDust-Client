@@ -9,7 +9,7 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
     {
         public BHOP() : base("BHOP", CategoryHandler.registry.categories[1], (char)0x07, false)
         {
-            RegisterSliderSetting("Speed", 01, 05, 30);
+            RegisterSliderSetting("Speed", -30, 05, 30);
         }
 
         public override void onTick()

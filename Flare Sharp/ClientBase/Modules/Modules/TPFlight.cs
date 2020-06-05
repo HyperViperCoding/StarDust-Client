@@ -9,9 +9,9 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
         int limitCheck = 0;
         public TPFlight():base("TPFlight", CategoryHandler.registry.categories[1], 0x07, false)
         {
-            RegisterSliderSetting("Speed", 0, 10, 500);
-            RegisterSliderSetting("Delay", 0, 100, 500);
-            RegisterSliderSetting("Limit", 0, 2, 20);
+            RegisterSliderSetting("Speed", -500, 10, 500);
+            RegisterSliderSetting("Delay", -500, 100, 500);
+            RegisterSliderSetting("Limit", -20, 2, 20);
         }
         public override void onTick()
         {

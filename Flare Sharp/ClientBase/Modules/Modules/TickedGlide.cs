@@ -17,8 +17,8 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
         }
         public TickedGlide() : base("TickedGlide", CategoryHandler.registry.categories[1], (char)0x07, false)
         {
-            RegisterSliderSetting("Speed", 0, 4, 50);
-            RegisterSliderSetting("Decrement Y", -20, -08, 0);
+            RegisterSliderSetting("Speed", -50, 4, 50);
+            RegisterSliderSetting("Decrement Y", -20, -08, 20);
             RegisterSliderSetting("Delay", 0, 20, 50);
         }
 

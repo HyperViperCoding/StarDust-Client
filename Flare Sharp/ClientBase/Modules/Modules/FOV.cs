@@ -8,7 +8,7 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
         float savedFOV;
         public FOV() : base("FOV", CategoryHandler.registry.categories[2], 'C', false)
         {
-            RegisterFloatSliderSetting("FOV", 0F, 3F, 300F);
+            RegisterFloatSliderSetting("FOV", -300F, 3F, 300F);
         }
 
         public override void onEnable()

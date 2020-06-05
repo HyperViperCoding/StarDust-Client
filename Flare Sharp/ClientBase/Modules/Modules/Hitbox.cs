@@ -8,8 +8,8 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
     {
         public Hitbox() : base("Hitbox", CategoryHandler.registry.categories[0], (char)0x07, false)
         {
-            RegisterFloatSliderSetting("Hitbox Width", 0.6f, 0.6f, 60f);
-            RegisterFloatSliderSetting("Hitbox Height", 1.8f, 1.8f, 18f);
+            RegisterFloatSliderSetting("Hitbox Width", -60f, 0.6f, 60f);
+            RegisterFloatSliderSetting("Hitbox Height", -18f, 1.8f, 18f);
         }
 
         public override void onTick()

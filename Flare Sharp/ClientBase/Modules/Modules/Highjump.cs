@@ -9,7 +9,7 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
         public HighJump() : base("HighJump", CategoryHandler.registry.categories[1], (char)0x07, false)
         {
             KeybindHandler.clientKeyHeldEvent += KeyHeldEvent;
-            RegisterSliderSetting("Jump Height", 0, 06, 30);
+            RegisterSliderSetting("Jump Height", -30, 06, 30);
         }
 
         public void KeyHeldEvent(object sender, clientKeyEvent e)

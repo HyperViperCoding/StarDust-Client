@@ -7,7 +7,7 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
     {
         public Jesus() : base("Jesus", CategoryHandler.registry.categories[1], (char)0x07, false)
         {
-            RegisterSliderSetting("Boost", 0, 02, 20);
+            RegisterSliderSetting("Boost", -20, 02, 20);
         }
 
         public override void onTick()

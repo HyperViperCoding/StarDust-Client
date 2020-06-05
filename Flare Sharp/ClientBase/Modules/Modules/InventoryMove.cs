@@ -9,8 +9,8 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
     {
         public InventoryMove() : base("InventoryMove", CategoryHandler.registry.categories[2], (char)0x07, false)
         {
-            RegisterSliderSetting("Walk Speed", 00, 03, 05);
-            RegisterSliderSetting("Camera Speed", 00, 02, 05);
+            RegisterSliderSetting("Walk Speed", -05, 03, 05);
+            RegisterSliderSetting("Camera Speed", -05, 02, 05);
             RegisterToggleSetting("Move Head", true);
         }
 

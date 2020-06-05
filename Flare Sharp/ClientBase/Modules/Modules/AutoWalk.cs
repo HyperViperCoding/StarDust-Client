@@ -11,7 +11,7 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
     {
         public AutoWalk() : base("Autowalk", CategoryHandler.registry.categories[1], (char)0x07, false)
         {
-            RegisterFloatSliderSetting("Speed", 0F, 1F, 50F);
+            RegisterFloatSliderSetting("Speed", -50F, 1F, 50F);
         }
 
         public override void onTick()

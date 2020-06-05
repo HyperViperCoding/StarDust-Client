@@ -10,7 +10,7 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
         public BoostHit() : base("Boost Hit", CategoryHandler.registry.categories[0], (char)0x07, false)
         {
             KeybindHandler.clientKeyHeldEvent += keyHeldEvent;
-            RegisterSliderSetting("Boost", 0, 20, 50);
+            RegisterSliderSetting("Boost", -50, 20, 50);
         }
 
         public void keyHeldEvent(object sender, clientKeyEvent e)

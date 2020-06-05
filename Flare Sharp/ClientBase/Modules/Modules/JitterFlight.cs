@@ -12,9 +12,9 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
 
         public JitterFlight() : base("JitterFlight", CategoryHandler.registry.categories[2], (char)0x07, false)
         {
-            RegisterSliderSetting("YBoost", 0, 4, 10);
-            RegisterSliderSetting("YCollapse", -10, -2, 0);
-            RegisterSliderSetting("Speed", 0, 4, 10);
+            RegisterSliderSetting("YBoost", -10, 4, 10);
+            RegisterSliderSetting("YCollapse", -10, -2, 10);
+            RegisterSliderSetting("Speed", -10, 4, 10);
         }
 
         public override void onTick()

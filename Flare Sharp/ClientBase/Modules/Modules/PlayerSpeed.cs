@@ -8,7 +8,7 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
         float savedSpeed;
         public PlayerSpeed() : base("Speed", CategoryHandler.registry.categories[1], (char)0x07, false)
         {
-            RegisterFloatSliderSetting("Speed", 0.2F, 1F, 5F);
+            RegisterFloatSliderSetting("Speed", -5F, 1F, 5F);
         }
 
         public override void onEnable()

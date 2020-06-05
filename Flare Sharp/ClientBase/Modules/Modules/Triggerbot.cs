@@ -10,7 +10,7 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
         public static int triggerbotCounter = 0;
         public Triggerbot() : base("Triggerbot", CategoryHandler.registry.categories[0], (char)0x07, false)
         {
-            RegisterSliderSetting("Delay", 0, 0, 500);
+            RegisterSliderSetting("Delay", 0, 10, 500);
         }
 
         public override void onTick()

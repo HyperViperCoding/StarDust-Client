@@ -9,7 +9,7 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
         public Jetpack() : base("Jetpack", CategoryHandler.registry.categories[1], 'F', false)
         {
             KeybindHandler.clientKeyUpEvent += UpKeyHeld;
-            RegisterFloatSliderSetting("Jetpack", 0F, 1F, 20F);
+            RegisterFloatSliderSetting("Jetpack", -20F, 1F, 20F);
         }
         public void UpKeyHeld(object sender, clientKeyEvent e)
         {

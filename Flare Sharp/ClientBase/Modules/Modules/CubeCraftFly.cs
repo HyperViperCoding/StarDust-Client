@@ -14,7 +14,7 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
         public CubeCraftFly():base("CCFly", CategoryHandler.registry.categories[1], 0x7, false)
         {
             startTimer(300);
-            RegisterSliderSetting("Speed", 0, 10, 50);
+            RegisterSliderSetting("Speed", -50, 10, 50);
         }
 
         public override void onDisable()
