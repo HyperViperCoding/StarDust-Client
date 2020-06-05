@@ -5,9 +5,9 @@ using System;
 
 namespace Flare_Sharp.ClientBase.Modules.Modules
 {
-    public class StupidScaffold : Module
+    public class StupidScaffold2 : Module
     {
-        public StupidScaffold() : base("StupidScaffold", CategoryHandler.registry.categories[2], (char)0x07, false)
+        public StupidScaffold2() : base("StupidScaffold2", CategoryHandler.registry.categories[2], (char)0x07, false)
         {
         }
 
