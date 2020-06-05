@@ -1,3 +1,3 @@
 # StarDust-Client
-This is a christian minecraft server
+EchoHackCmd Is A GOD
 
