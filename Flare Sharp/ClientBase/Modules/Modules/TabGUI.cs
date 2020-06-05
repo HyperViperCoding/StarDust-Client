@@ -24,7 +24,7 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
             graphics.FillRectangle(secondary, 0, 0, catWidth * scale, ((32 * scale) * CategoryHandler.registry.categories.Count) + tFontSize);
 
             //graphics.FillRectangle(secondary, 0, 0, catWidth * scale, 32 * scale);
-            graphics.DrawString("Flare", titleFont, primary, -13, 0);
+            graphics.DrawString("Stardust", titleFont, primary, -13, 0);
             uint c = 0;
             foreach (Category category in CategoryHandler.registry.categories)
             {
