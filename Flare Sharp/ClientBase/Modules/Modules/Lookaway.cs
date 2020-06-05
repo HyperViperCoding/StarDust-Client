@@ -24,8 +24,8 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
             {
                 Utils.Vec2f anglesArr = Utils.getCalculationsToPos(Minecraft.clientInstance.localPlayer.location, closestEnt.location);
 
-                Minecraft.clientInstance.firstPersonLookBehavior.cameraPitch = anglesArr.x - anglesArr.x - anglesArr.x;
-                Minecraft.clientInstance.firstPersonLookBehavior.cameraYaw = anglesArr.y - anglesArr.y - anglesArr.y;
+                Minecraft.clientInstance.firstPersonLookBehavior.cameraPitch = 0 - anglesArr.x;
+                Minecraft.clientInstance.firstPersonLookBehavior.cameraYaw = 0 - anglesArr.y;
             }
         }
     }
