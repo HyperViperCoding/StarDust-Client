@@ -1,4 +1,4 @@
 # StarDust-Client
-we are epic
-everyone else is garbage
-lunicornia can go # fuck themselves up the ass
+we are epic\n
+everyone else is garbage\n
+lunicornia can go fuck themselves up the ass\n
