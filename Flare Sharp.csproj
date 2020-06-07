@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CACF815B-6EE3-4B2A-BA69-014F06BBEA89}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StarDust_Sharp</RootNamespace>
-    <AssemblyName>StarDust Sharp</AssemblyName>
+    <RootNamespace>Flare_Sharp</RootNamespace>
+    <AssemblyName>Flare Sharp</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -78,6 +78,12 @@
     <Compile Include="ClientBase\Modules\Modules\AutoSprint.cs" />
     <Compile Include="ClientBase\Modules\Modules\AutoWalk.cs" />
     <Compile Include="ClientBase\Modules\Modules\BHOP.cs" />
+    <Compile Include="ClientBase\Modules\Modules\Twerk1.cs" />
+    <Compile Include="ClientBase\Modules\Modules\Twerk2.cs" />
+    <Compile Include="ClientBase\Modules\Modules\Twerk3.cs" />
+    <Compile Include="ClientBase\Modules\Modules\Twerk4.cs" />
+    <Compile Include="ClientBase\Modules\Modules\NoCrouch.cs" />
+    <Compile Include="ClientBase\Modules\Modules\Commands.cs" />
     <Compile Include="ClientBase\Modules\Modules\BoostHit.cs" />
     <Compile Include="ClientBase\Modules\Modules\BounceFly.cs" />
     <Compile Include="ClientBase\Modules\Modules\ClickTP.cs" />
@@ -85,11 +91,11 @@
     <Compile Include="ClientBase\Modules\Modules\CoordinatesDisplay.cs" />
     <Compile Include="ClientBase\Modules\Modules\CpuLimiter.cs" />
     <Compile Include="ClientBase\Modules\Modules\Criticals.cs" />
-    <Compile Include="ClientBase\Modules\Modules\CubeCraftFly.cs" />
     <Compile Include="ClientBase\Modules\Modules\Lookaway.cs" />
+    <Compile Include="ClientBase\Modules\Modules\CubeCraftFly.cs" />
     <Compile Include="ClientBase\Modules\Modules\FastLadder.cs" />
     <Compile Include="ClientBase\Modules\Modules\FOV.cs" />
-    <Compile Include="ClientBase\Modules\Modules\RubberBand.cs" />
+    <Compile Include="ClientBase\Modules\Modules\Freecam.cs" />
     <Compile Include="ClientBase\Modules\Modules\Gamemode.cs" />
     <Compile Include="ClientBase\Modules\Modules\Highjump.cs" />
     <Compile Include="ClientBase\Modules\Modules\Hitbox.cs" />
@@ -105,12 +111,17 @@
     <Compile Include="ClientBase\Modules\Modules\ModuleList.cs" />
     <Compile Include="ClientBase\Modules\Modules\Glide.cs" />
     <Compile Include="ClientBase\Modules\Modules\NoFall.cs" />
+    <Compile Include="ClientBase\Modules\Modules\NoJump.cs" />
     <Compile Include="ClientBase\Modules\Modules\NoKnockBack.cs" />
+    <Compile Include="ClientBase\Modules\Modules\SuperKnockBack.cs" />
+    <Compile Include="ClientBase\Modules\Modules\NegativeKnockBack.cs" />
+    <Compile Include="ClientBase\Modules\Modules\NegativeSuperKnockBack.cs" />
     <Compile Include="ClientBase\Modules\Modules\NoPacket.cs" />
     <Compile Include="ClientBase\Modules\Modules\NoShadow.cs" />
     <Compile Include="ClientBase\Modules\Modules\NoSlowDown.cs" />
     <Compile Include="ClientBase\Modules\Modules\NoSwing.cs" />
     <Compile Include="ClientBase\Modules\Modules\NoWater.cs" />
+    <Compile Include="ClientBase\Modules\Modules\AirWater.cs" />
     <Compile Include="ClientBase\Modules\Modules\NoWeb.cs" />
     <Compile Include="ClientBase\Modules\Modules\Phase.cs" />
     <Compile Include="ClientBase\Modules\Modules\PlayerSpeed.cs" />
@@ -119,19 +130,20 @@
     <Compile Include="ClientBase\Modules\Modules\Reach.cs" />
     <Compile Include="ClientBase\Modules\Modules\Scaffold.cs" />
     <Compile Include="ClientBase\Modules\Modules\StupidScaffold.cs" />
-    <Compile Include="ClientBase\Modules\Modules\TFreaky.cs" />
+    <Compile Include="ClientBase\Modules\Modules\YesFall.cs" />
+    <Compile Include="ClientBase\Modules\Modules\TPAura.cs" />
     <Compile Include="ClientBase\Modules\Modules\TabGUI.cs" />
+    <Compile Include="ClientBase\Modules\Modules\StupidScaffold2.cs" />
+    <Compile Include="ClientBase\Modules\Modules\TFreaky.cs" />
     <Compile Include="ClientBase\Modules\Modules\TickedGlide.cs" />
     <Compile Include="ClientBase\Modules\Modules\Tower.cs" />
     <Compile Include="ClientBase\Modules\Modules\TPFlight.cs" />
-    <Compile Include="ClientBase\Modules\Modules\Twerk.cs" />
     <Compile Include="ClientBase\Modules\Modules\Triggerbot.cs" />
     <Compile Include="ClientBase\Modules\Modules\Coordinates.cs" />
     <Compile Include="ClientBase\Modules\Modules\Velocity.cs" />
-    <Compile Include="ClientBase\Modules\Modules\XBoost.cs" />
     <Compile Include="ClientBase\Modules\Modules\YBoost.cs" />
-    <Compile Include="ClientBase\Modules\Modules\YesFall.cs" />
     <Compile Include="ClientBase\Modules\Modules\ZBoost.cs" />
+    <Compile Include="ClientBase\Modules\Modules\XBoost.cs" />
     <Compile Include="ClientBase\Modules\Modules\Recall.cs" />
     <Compile Include="ClientBase\Modules\Settings\Setting.cs" />
     <Compile Include="ClientBase\Modules\Settings\SliderFloatSetting.cs" />
