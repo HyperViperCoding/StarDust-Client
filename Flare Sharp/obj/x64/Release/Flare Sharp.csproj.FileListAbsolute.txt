@@ -1,0 +1,5 @@
+C:\Users\Tristan\Desktop\StarDust-Client-master\Flare Sharp\obj\x64\Release\Flare Sharp.csprojAssemblyReference.cache
+C:\Users\Tristan\Desktop\StarDust-Client-master\Flare Sharp\obj\x64\Release\Flare Sharp.csproj.CoreCompileInputs.cache
+C:\Users\Tristan\Desktop\StarDust-Client-master\Flare Sharp\bin\x64\Release\Flare Sharp.exe.config
+C:\Users\Tristan\Desktop\StarDust-Client-master\Flare Sharp\bin\x64\Release\Flare Sharp.exe
+C:\Users\Tristan\Desktop\StarDust-Client-master\Flare Sharp\obj\x64\Release\Flare Sharp.exe
