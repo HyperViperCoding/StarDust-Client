@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Flare_Sharp.ClientBase.Modules.Modules
 {
-    public class Twerk1 : Module
+    public class Twerk4 : Module
     {
-        public Twerk1() : base("Twerk1", CategoryHandler.registry.categories[2], (char)0x07, false)
+        public Twerk4() : base("Twerk4", CategoryHandler.registry.categories[2], (char)0x07, false)
         {
             RegisterSliderSetting("Twerk speed (MS)", 1, 1000, 10000);
         }
@@ -19,7 +19,10 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
         {
             base.onTick();
             Minecraft.clientInstance.vanillaMoveInputHandler.isCrouching = 1;
-            System.Threading.Thread.Sleep((int)sliderSettings[0].value);
+        }
+        public override void onTick()
+        {
+            base.onTick();
             Minecraft.clientInstance.vanillaMoveInputHandler.isCrouching = 0;
         }
     }

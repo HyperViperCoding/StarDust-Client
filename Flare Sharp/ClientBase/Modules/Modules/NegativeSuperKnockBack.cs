@@ -13,9 +13,9 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
         public override void onEnable()
         {
             base.onEnable();
-            MCM.writeBaseByte(Statics.NegativeSuperKnockBackX, -16);
-            MCM.writeBaseByte(Statics.NegativeSuperKnockBackY, -16);
-            MCM.writeBaseByte(Statics.NegativeSuperKnockBackZ, -16);
+            MCM.writeBaseByte(Statics.NegativeSuperKnockBackX, 0);
+            MCM.writeBaseByte(Statics.NegativeSuperKnockBackY, 0);
+            MCM.writeBaseByte(Statics.NegativeSuperKnockBackZ, 0);
         }
 
         public override void onDisable()

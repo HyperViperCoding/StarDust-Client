@@ -3,9 +3,9 @@ using Flare_Sharp.Memory.FlameSDK;
 
 namespace Flare_Sharp.ClientBase.Modules.Modules
 {
-    public class AirJump : Module
+    public class NoJump : Module
     {
-        public AirJump() : base("AirJump", CategoryHandler.registry.categories[1], (char)0x07, false)
+        public NoJump() : base("NoJump", CategoryHandler.registry.categories[1], (char)0x07, false)
         {
         }
 
