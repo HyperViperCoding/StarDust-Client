@@ -22,6 +22,15 @@ namespace Flare_Sharp.Memory.FlameSDK
         public static int NoKnockBackX = 0x126D0C5; //v1.14.6
         public static int NoKnockBackY = 0x126D0CE; //v1.14.6
         public static int NoKnockBackZ = 0x126D0D7; //v1.14.6
+        public static int SuperKnockBackX = 0x126D0C5; //v1.14.6
+        public static int SuperKnockBackY = 0x126D0CE; //v1.14.6
+        public static int SuperKnockBackZ = 0x126D0D7; //v1.14.6
+        public static int NegativeKnockBackX = 0x126D0C5; //v1.14.6
+        public static int NegativeKnockBackY = 0x126D0CE; //v1.14.6
+        public static int NegativeKnockBackZ = 0x126D0D7; //v1.14.6
+        public static int NegativeSuperKnockBackX = 0x126D0C5; //v1.14.6
+        public static int NegativeSuperKnockBackY = 0x126D0CE; //v1.14.6
+        public static int NegativeSuperKnockBackZ = 0x126D0D7; //v1.14.6
         public static int webTick = 0x1264065; //v1.14.6
         public static int ladderUp = 0x1429E80; //v1.14.6
         public static int ladderDown = 0x141FAA8; //v1.14.6
