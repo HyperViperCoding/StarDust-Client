@@ -79,9 +79,9 @@
     <Compile Include="ClientBase\Modules\Modules\AutoWalk.cs" />
     <Compile Include="ClientBase\Modules\Modules\BHOP.cs" />
     <Compile Include="ClientBase\Modules\Modules\Twerk1.cs" />
-	<Compile Include="ClientBase\Modules\Modules\Twerk2.cs" />
-	<Compile Include="ClientBase\Modules\Modules\Twerk3.cs" />
-	<Compile Include="ClientBase\Modules\Modules\Twerk4.cs" />
+    <Compile Include="ClientBase\Modules\Modules\Twerk2.cs" />
+    <Compile Include="ClientBase\Modules\Modules\Twerk3.cs" />
+    <Compile Include="ClientBase\Modules\Modules\Twerk4.cs" />
     <Compile Include="ClientBase\Modules\Modules\NoCrouch.cs" />
     <Compile Include="ClientBase\Modules\Modules\Commands.cs" />
     <Compile Include="ClientBase\Modules\Modules\BoostHit.cs" />
@@ -110,7 +110,6 @@
     <Compile Include="ClientBase\Modules\Modules\Jetpack.cs" />
     <Compile Include="ClientBase\Modules\Modules\ModuleList.cs" />
     <Compile Include="ClientBase\Modules\Modules\Glide.cs" />
-	<Compile Include="ClientBase\Modules\Modules\Rubberband.cs" />
     <Compile Include="ClientBase\Modules\Modules\NoFall.cs" />
     <Compile Include="ClientBase\Modules\Modules\NoJump.cs" />
     <Compile Include="ClientBase\Modules\Modules\NoKnockBack.cs" />
@@ -134,8 +133,8 @@
     <Compile Include="ClientBase\Modules\Modules\YesFall.cs" />
     <Compile Include="ClientBase\Modules\Modules\TPAura.cs" />
     <Compile Include="ClientBase\Modules\Modules\TabGUI.cs" />
-	<Compile Include="ClientBase\Modules\Modules\StupidScaffold2.cs" />
-	<Compile Include="ClientBase\Modules\Modules\TFreaky.cs" />
+    <Compile Include="ClientBase\Modules\Modules\StupidScaffold2.cs" />
+    <Compile Include="ClientBase\Modules\Modules\TFreaky.cs" />
     <Compile Include="ClientBase\Modules\Modules\TickedGlide.cs" />
     <Compile Include="ClientBase\Modules\Modules\Tower.cs" />
     <Compile Include="ClientBase\Modules\Modules\TPFlight.cs" />
